@@ -8,16 +8,8 @@
 #ifndef I2C_H
 #define	I2C_H
 
-#ifdef	__cplusplus
-extern "C" {
-#endif
-
-
-
-
-#ifdef	__cplusplus
-}
-#endif
+void i2c_init();
+void i2c_interrupt_handler();
 
 #endif	/* I2C_H */
 

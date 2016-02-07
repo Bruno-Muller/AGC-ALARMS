@@ -8,6 +8,16 @@
 
 #include <xc.h>
 
-void main(void) {
-    return;
+void io_init() {
+    // Disable analog pins
+    ANSELA = 0x00;
+    ANSELC = 0x00;
+
+    // LATCH
+    LATA = 0b0000100;
+    LATC = 0;
+
+    // TRIS
+    TRISA = 0;
+    TRISC = 0x03;    
 }

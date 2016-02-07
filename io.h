@@ -8,16 +8,14 @@
 #ifndef IO_H
 #define	IO_H
 
-#ifdef	__cplusplus
-extern "C" {
-#endif
+#define BLINK_SYNC  RA5
 
+#define SELECT  RA2
 
+#define select_assert()     SELECT = 0
+#define select_disassert()  SELECT = 1
 
-
-#ifdef	__cplusplus
-}
-#endif
+void io_init();
 
 #endif	/* IO_H */
 

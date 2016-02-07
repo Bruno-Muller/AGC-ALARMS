@@ -7,6 +7,10 @@
       <itemPath>conf.h</itemPath>
       <itemPath>i2c.h</itemPath>
       <itemPath>io.h</itemPath>
+      <itemPath>bits.h</itemPath>
+      <itemPath>channel.h</itemPath>
+      <itemPath>timer.h</itemPath>
+      <itemPath>alarms.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -18,6 +22,9 @@
       <itemPath>main.c</itemPath>
       <itemPath>i2c.c</itemPath>
       <itemPath>io.c</itemPath>
+      <itemPath>timer.c</itemPath>
+      <itemPath>interrupt.c</itemPath>
+      <itemPath>alarms.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
