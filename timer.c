@@ -5,11 +5,12 @@
  * Created on 7 février 2016, 11:37
  */
 
-
-#include <xc.h>
+#include "timer.h"
 
 #include "alarms.h"
 #include "io.h"
+
+#include <xc.h>
 
 void timer_init() {
     TMR2 = 0;

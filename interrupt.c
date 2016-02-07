@@ -5,11 +5,10 @@
  * Created on 7 février 2016, 11:40
  */
 
-
-#include <xc.h>
-
 #include "i2c.h"
 #include "timer.h"
+
+#include <xc.h>
 
 void interrupt interrupt_handler() {
     if (TMR2IF) {

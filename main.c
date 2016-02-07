@@ -5,15 +5,13 @@
  * Created on 28 novembre 2015, 19:38
  */
 
-
-#include <xc.h>
-
 #include "alarms.h"
 #include "conf.h"
 #include "i2c.h"
 #include "io.h"
 #include "timer.h"
 
+#include <xc.h>
 
 void init() {
     // CLOCK 16 MHz

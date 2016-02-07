@@ -13,5 +13,7 @@
 extern unsigned char alarms_state[];
 extern unsigned char light;
 
+void alarms_update(unsigned char channel, unsigned char data_high, unsigned char data_low);
+
 #endif	/* ALARMS_H */
 
